@@ -1,0 +1,349 @@
+body{
+    margin:0;
+    padding:0;
+    display:table;
+    background-image:url("../images/pinkDust.png");
+    height:100%;
+    width:100%;
+
+}
+
+header{
+    background-color: #ffffff; 
+    border-bottom: 3px solid grey;
+}
+
+.links{
+    display: inline-block;
+    margin-left: 25%;
+}
+
+.myName{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #3bb7c5;
+    color: #fff;
+    padding: 20px;
+    margin-left: 10%;
+}
+
+.linkText{
+    display: inline-block;
+    font-size: 16px;
+    color: grey;
+    font-weight: 100;
+    border-right: 1px solid lightgray;
+    padding-right: 10px;
+    margin-left: 4px;
+}
+
+
+.pic{
+    
+    float:left;
+    width: 100px;
+    margin-right:5px;
+    
+}
+
+.box_1header{
+    
+    color:#3bb7c5;
+}
+
+.box_1{
+    color:slategray;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif, serif;
+    font-size: 10px;
+    display: inline-block;
+    width: 50%;
+    padding: 25px;
+    background-color: #ffffff;
+    margin-left: 10%;
+    margin-top:40px;
+    float: left;  
+}
+
+.box_1.width{
+    
+    width:35%;
+}
+
+.box_1.padding{
+    
+    padding: 25px 25px 65px;
+}
+
+.imgBackground{
+  display: inline-block;
+  position: relative;
+  float: left;
+  width: 47%;
+  margin: 5px;
+  overflow: auto;
+}
+
+
+.imgBackground img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+  height: 200px;
+}
+
+.imgBackground h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 90%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 15px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+
+
+/*This is to put space between email and name*/
+.box1form2{
+    display:inline-block;
+    margin-top: -15px;
+}
+/*This is to put space between message and email*/
+.box1form3{
+    display:inline-block;
+    margin-top:-10px;
+}
+
+.textArea{
+    
+    height:100px;
+    width:100%;
+    
+}
+
+
+/*This is to style the text box font*/
+input::placeholder{
+    color:lightgray;
+}
+/*This is for the text boxes*/
+input{
+    display: inline-block;
+    width:100%;
+    position:relative;
+    top:-10px;
+    padding: 5px 5px 5px;
+}
+/*This is for name,email,message*/
+.box1Text{
+    display:inline-block;
+    margin-left:0px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color:grey;
+    font-weight: 100;
+}
+
+.submit{
+    display:inline-block;
+    background-color:#3bb7c5;
+    color: #ffffff;
+    width:35%;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    border: 1px solid lightgray; 
+    margin-top: 10px;
+}
+
+.aboutMeText{
+    
+    margin-top: 0;
+    margin-left: 5px;
+}
+
+.box_2{
+    color:#3bb7c5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif, serif;
+    text-align: center;
+    display: inline-block;
+    width:30%;
+    background-color: #ffffff;
+    margin-top: 40px;
+    padding: 25px;
+    margin-left:10%;
+    
+}
+
+.box_2.width{
+    
+    width:18%;
+    
+}
+
+/*Connect With Me Pic Specs*/
+.gitHub{
+    
+    display: inline-block;
+    float:left;
+    width: 25%;
+    
+}
+
+.linkedIn{
+    
+    display: inline-block;
+    width: 25%;
+    
+}
+
+.stackOver{
+    
+    display: inline-block;
+    float:right;
+    width: 25%;
+    
+}
+
+/*Media Screen Big*/
+@media screen and (max-width:980px) {
+    
+    body{
+        
+        background-color:pink;
+        
+    }
+    
+    
+}
+
+/*Media Screen Med*/
+@media screen and (max-width:768px) {
+    
+    body{
+        
+        background-color:blue;
+        
+    }
+    
+}
+
+/*Media Screen Sm*/
+@media screen and (max-width: 640px) {
+   
+    
+    body{
+        
+        background-color:red;
+        
+    }
+    header{
+        
+        position:static;
+        background-color:#ffffff;
+        
+    }
+    
+    .myName{
+        
+        position: static;
+        background-color:#3bb7c5;
+        width:100%;
+        padding: 20px;
+        margin-left: 0%;
+        text-align: center;
+        
+    }
+    
+    .links{
+        
+        margin-left: 28%;
+        padding: 5px;
+        
+    }
+    
+    .linkText{
+        
+    display: inline-block;
+    font-size: 14px;
+    color: grey;
+    border-right: 1px solid gray;
+    padding: 0px 25px 0px 15px 
+        
+    }
+    
+    .box_1header{
+    
+    color:#3bb7c5;
+}
+    
+   .box_1.width{
+    
+    width:80%;
+}
+    
+.pic{
+    
+    float:left;
+    width: 70%;
+    height: 250px;
+    margin-right:5px;
+    
+}
+    
+    
+.box_2{
+    
+    
+    width:83%;
+    margin-top: 50px;
+    padding: 15px;
+    margin-left:10%;
+    height: 60px;
+
+}
+    
+.gitHub{    
+  
+    width:14%;
+    height: 50px;
+}
+    
+.linkedIn{    
+  
+    width:14%;
+    height: 50px;
+    
+}
+    
+.stackOver{
+
+    width: 14%;
+    float: right;
+    height: 50px;
+    
+}
+ 
+/* Media Query sm ends */ 
+    
+}
+
+footer{
+    
+    background-color: slategrey;
+    width: 100%;
+    position:fixed;
+    bottom: 0px;
+    border-top: 5px solid #3bb7c5;
+    padding: 20px;
+}
+
+.wrapper{
+    
+    color: #cdd1d6;
+    text-align: center
+}
